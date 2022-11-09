@@ -1,15 +1,13 @@
-function List({tasks}){
+function List(){
 
 
     return(
         <div className="list">
-            {tasks.map((task)=> {
-                 return<div className="tarjeta">
-                    <h2>{task.title}</h2>
-                    <p>{task.content}</p>
+           
+                 <div className="tarjeta">
+                    <h2>Titulo</h2>
+                    <p>contenido</p>
                 </div>
-            })}
-            
              
         </div>
     )
